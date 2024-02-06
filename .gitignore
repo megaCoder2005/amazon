@@ -1,0 +1,73 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+front-end-amazon-v2/node_modules
+front-end-amazon-v2/.pnp
+front-end-amazon-v2/.pnp.js
+
+# testing
+front-end-amazon-v2/coverage
+
+# next.js
+front-end-amazon-v2/.next/
+front-end-amazon-v2/out/
+
+# production
+front-end-amazon-v2/build
+
+# misc
+front-end-amazon-v2/.DS_Store
+front-end-amazon-v2/*.pem
+
+# debug
+front-end-amazon-v2/npm-debug.log*
+front-end-amazon-v2/yarn-debug.log*
+front-end-amazon-v2/yarn-error.log*
+front-end-amazon-v2/.pnpm-debug.log*
+
+# local env files
+front-end-amazon-v2/.env*.local
+
+# vercel
+front-end-amazon-v2/.vercel
+
+front-end-amazon-v2/# typescript
+front-end-amazon-v2/*.tsbuildinfo
+front-end-amazon-v2/next-env.d.ts
+
+
+# compiled output
+back-end-amazon-v2/dist
+back-end-amazon-v2/node_modules
+back-end-amazon-v2/.env
+# Logs
+back-end-amazon-v2/logs
+back-end-amazon-v2/*.log
+back-end-amazon-v2/npm-debug.log*
+back-end-amazon-v2/pnpm-debug.log*
+back-end-amazon-v2/yarn-debug.log*
+back-end-amazon-v2/yarn-error.log*
+back-end-amazon-v2/lerna-debug.log*
+
+# OS
+back-end-amazon-v2/.DS_Store
+
+# Tests
+back-end-amazon-v2/coverage
+back-end-amazon-v2/.nyc_output
+
+# IDEs and editors
+back-end-amazon-v2/.idea
+back-end-amazon-v2/.project
+back-end-amazon-v2/.classpath
+back-end-amazon-v2/.c9/
+back-end-amazon-v2/*.launch
+back-end-amazon-v2/.settings/
+back-end-amazon-v2/*.sublime-workspace
+
+# IDE - VSCode
+back-end-amazon-v2/.vscode/*
+back-end-amazon-v2/!.vscode/settings.json
+back-end-amazon-v2/!.vscode/tasks.json
+back-end-amazon-v2/!.vscode/launch.json
+back-end-amazon-v2/!.vscode/extensions.json
